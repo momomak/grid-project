@@ -1,0 +1,38 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px black solid;
+    position: relative;
+    margin: 100px auto;
+   
+}
+.anim-interieur{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: orange;
+    text-align: center;
+    
+
+}
+
+.rect{
+    width: 5px;
+    height: 20px;
+    background: #000;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: inline-block;
+    /* padding-right: 70px; */
+   
+}
+

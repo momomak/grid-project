@@ -1,0 +1,47 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ .container{
+    background-color:#eee;
+    width: 1000px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-rows: 150px 150px ;
+    grid-template-columns: repeat(3, 150px) ;
+    grid-row-gap: 30px;
+   grid-template-areas: "head head head"
+                        ".WEEK . foot";
+   }
+
+ .items{
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 30px;
+ }
+
+
+
+ .items1{
+   background-color: crimson;
+   grid-area: foot;
+
+ }
+ .items2{
+   background-color: lightblue;
+ }
+ .items3{
+   background-color: rgb(48, 99, 35);
+ }
+ .items4{
+   background-color: rgb(134, 128, 10);
+ }
+ .items5{
+   background-color: rgb(183, 73, 135);
+ }
+ .items6{
+   background-color: rgb(116, 109, 109);
+ }
+ 

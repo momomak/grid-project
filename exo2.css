@@ -1,0 +1,190 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(to right, #fcf9ff, #efe9fb, #e0daf8, #ceccf5, #b9bff3, #aeb6f3, #a2adf3, #95a4f3, #979bf4, #9b92f3, #a188f1, #a87dee);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav bar */
+nav{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-items{
+    width: 50%;
+    height: auto;
+}
+.nav-menu{
+    color: #6E6B70;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    }
+
+.nav-items{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 20% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+/* bouton de la navbar */
+
+.btn-items{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.btn-log{
+    border: rgb(255, 255, 255, 60%) 1px solid;
+    border-radius: 25px;
+    color: rgb(255, 255, 255, 75%);
+    padding: 5%;
+    font-weight: bold;
+}
+.btn-join{
+    border: rgb(255, 255, 255, 60%) 1px solid;
+    padding: 5%;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #606cde, #6564dd, #6b5bdc, #7151d9, #7945d6);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-radius: 25px;
+
+
+}
+ /* MAIN  */
+
+ main{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+ }
+ .gauche{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ .container-feat{
+    height: 30%;
+ }
+ .droite{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+ }
+h1{
+    font-size: 5vw;
+}
+.container-tuned{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    margin: 10% 0 3% 10%;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+}
+
+.span-tuned{
+    font-size: 1vw;
+}
+
+
+.container-tuned p{
+    font-size: 1vw;
+    margin: 9% 0 5% 0;
+}
+
+.btn-get{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 1vw;
+    width: 20%;
+    background-image: linear-gradient(to right, #3769ec, #4960ed, #5a56ec, #6b4aea, #7c3ae6);
+    border-radius: 22px;
+    color: white;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.rythme{
+    background-image: linear-gradient(to right, #606cde, #6564dd, #6b5bdc, #7151d9, #7945d6);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+
+/* deuxieme gros block */
+
+.container-feat{
+    display: flex;
+    width: 80%;
+    margin: 5% 0 15% 10%;
+}
+
+.feat-gauche{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.sp-feat{
+    font-size: 1vw;
+    margin-bottom: 5%;
+}
+.sp-top{
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 5%;
+
+ }
+.sp-tuned{
+    font-size: 1vw;
+ }
+
+.feat-droite{
+    display: flex;
+    align-items: center;
+}
+.play-items{
+    width: 9%;
+}
+
+/* plan droite */
+.img-fille{
+    margin-left: 50%;
+}

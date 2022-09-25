@@ -1,0 +1,76 @@
+*, ::before, ::after{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;}
+    
+
+
+body{
+    font-family: font-family: 'Montserrat', sans-serif;;
+    text-align: justify;
+    border: rgb(199, 165, 107, 20%) 20px solid;
+}
+
+.nav{
+    /* remise à zero nav */
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 100%;
+}
+
+.navbar{
+/* Couleur actuelle */
+    text-align: center;
+    background-image: linear-gradient(to bottom, #cb9539, #b28331, #9a712a, #825f23, #6b4e1c);   
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Logo cirque tout à gauche */
+
+.navbar .logo-cirque{
+    width: 150px;
+    height: auto;
+
+}
+
+.nav{
+    /* Transition sur chaque menu */
+    padding: 20px;
+    transition: transform 1s ease-in-out;
+}
+
+.nav:hover{
+    border-radius: 30px; 
+    background-image: linear-gradient(to right top, #ec7d0f, #e34141, #bc0b62, #7b1375, #172173);    
+    background-clip: text;
+    color: rgb(251, 251, 251);
+    font-weight: bold;
+}
+
+
+
+
+
+
+h2{
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin: 30px;
+    font-size: 50px;
+    background-image: linear-gradient(to bottom, #cb9539, #b28331, #9a712a, #825f23, #6b4e1c);   
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.performances {
+    column-count: 3;
+    column-rule-style:groove
+
+  }
+
