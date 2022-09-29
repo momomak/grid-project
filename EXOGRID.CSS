@@ -239,7 +239,7 @@ width: 35vw;
     grid-row: 5/6;
     /* height: 5vh; */
     /* position int */
-    display: relative;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
